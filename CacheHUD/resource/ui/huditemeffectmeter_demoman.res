@@ -36,7 +36,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"15"
+		"xpos"					"39"
 		"ypos"					"27"
 		"zpos"					"2"
 		"wide"					"41"
@@ -48,7 +48,7 @@
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"dulltext"				"1"
+		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Hiruko8"
 	}
@@ -76,7 +76,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"15"
+		"xpos"					"39"
 		"ypos"					"8"
 		"zpos"					"2"
 		"wide"					"40"
@@ -89,6 +89,6 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Hiruko16"
+		"font"					"Hiruko24"
 	}
 }

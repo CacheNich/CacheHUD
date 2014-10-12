@@ -4,20 +4,18 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"16"
+		"xpos"			"9999"
 		"xpos_minmode"	"35"
 		"xpos_hidef"	"108"
 		"xpos_lodef"	"108"
-		"ypos"			"9"
+		"ypos"			"9999"
 		"zpos"			"2"
-		"wide"			"78"
-		"wide_minmode"	"38"
-		"wide_lodef"	"90"
-		"tall"			"33"
+		"wide"			"0"
+		"tall"			"0"
 		"tall_minmode"	"23"
 		"tall_lodef"	"38"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
 	}
@@ -25,8 +23,8 @@
 	{
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"67"
-		"ypos"				"16"
+		"xpos"				"42"
+		"ypos"				"37"
 		"zpos"				"4"	
 		"wide"				"22"
 		"tall"				"22"
@@ -43,8 +41,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"16"
-		"ypos"			"34"
+		"xpos"			"12"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -61,14 +59,14 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 	}
@@ -76,8 +74,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"16"
-		"ypos"			"33"
+		"xpos"			"12"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -94,14 +92,14 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 	}
@@ -109,10 +107,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"16"
+		"xpos"			"12"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"-2"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -132,17 +130,17 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"ypos"			"9999"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"tall_minmode"	"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 	}	
@@ -150,8 +148,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"16"
-		"ypos"			"33"
+		"xpos"			"12"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -168,17 +166,17 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"ypos"			"9999"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"tall_minmode"	"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 	}
@@ -186,8 +184,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"16"
-		"ypos"			"33"
+		"xpos"			"12"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -204,15 +202,29 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+	}
+		 "TimeBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TimeBG"
+		"xpos"			"31"
+		"ypos"			"15"
+		"zpos"			"-1"
+		"wide"			"43"
+		"tall"			"47"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"     "0 0 0 125"
+		
 	}
 }

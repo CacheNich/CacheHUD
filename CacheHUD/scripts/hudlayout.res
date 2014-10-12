@@ -6,7 +6,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"
-		"ypos"	"0"
+		"ypos"	"-1"
 		"wide"	"f0"
 		"tall"	"480"
 	}
@@ -16,10 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c75"	[$WIN32]
-		"ypos"	"c95"	[$WIN32]
+		"xpos"	"c65"	[$WIN32]
+		"ypos"	"c71"	[$WIN32]
 		"wide"	"250"
-		"tall"	"120"
+		"tall"	"300"
 	}
 	
 	HudObjectiveStatus
@@ -59,7 +59,7 @@
 		"ypos"			"r52"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"100"
+		"wide"			"300"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -70,13 +70,9 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r290"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r145"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
-		"wide"			"400"
+		"xpos"			"r487"	[$WIN32]
+		"ypos"			"r150"	[$WIN32]
+		"wide"			"500"
 		"tall"			"300"
 	}
 	
@@ -86,7 +82,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r450"	[$WIN32]
-		"ypos"			"r120"	[$WIN32]
+		"ypos"			"r158"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
@@ -249,8 +245,8 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"248"
-		"wide"	 	"1000"
-		"tall"	 	"100"
+		"wide"	 	"100"
+		"tall"	 	"38"
 		"priority"	"40"
 
 		if_vr
@@ -282,8 +278,8 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"380"
-		"wide"	 	"252"
-		"tall"	 	"100"
+		"wide"	 	"100"
+		"tall"	 	"50"
 		"priority"	"35"
 
 		if_vr
@@ -1019,8 +1015,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r445"	[$WIN32]
-		"ypos"			"r170"	[$WIN32]
+		"xpos"			"r435"	[$WIN32]
+		"ypos"			"r200"	[$WIN32]
 		"xpos"			"r200"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"300"
@@ -1447,7 +1443,7 @@ xHairCircle
 		"zpos"			"2"
 
 		"xpos"			"c-100"
-		"ypos"			"c-100"
+		"ypos"			"c-101"
 		"wide"			"200"
 		"tall"			"200"
 

@@ -36,7 +36,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
+		"xpos"					"52"
 		"ypos"					"27"
 		"zpos"					"2"
 		"wide"					"41"
@@ -76,7 +76,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
+		"xpos"					"52"
 		"ypos"					"8"
 		"zpos"					"2"
 		"wide"					"40"

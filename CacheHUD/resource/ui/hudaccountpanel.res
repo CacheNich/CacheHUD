@@ -2,13 +2,13 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"30"
+		"delta_item_x"			"10"
 		"delta_item_start_y"	"r190"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"0.8"
-		"delta_item_font"		"CoffeeBdIt24"
+		"delta_item_font"		"Hiruko24"
 	}
 	
 	"AccountBG"
@@ -53,7 +53,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
 		"xpos"			"5"
-		"ypos"			"30"
+		"ypos"			"17"
 		"zpos"			"2"
 		"wide"			"42"
 		"tall"			"21"

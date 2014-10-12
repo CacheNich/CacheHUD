@@ -54,7 +54,7 @@
 			
 			"attriblabel"
 			{
-				"font"			"ItemFontAttribLarge"
+				"font"			"Hiruko24"
 				"visible"		"0"
 			}
 			
@@ -369,7 +369,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"labelText"		"#ClassLoadoutItemPresetsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -399,7 +399,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Hiruko16"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

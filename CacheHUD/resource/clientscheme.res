@@ -2564,38 +2564,7 @@ Scheme
 				"antialias" "1"
 		   }	
 		}												
-       "CrossHairKonrWings"
-       {
-            "1"
-            {
-                "name"     "Crosshairs"
-                "tall"     "12"
-                "weight"    "0"
-                "antialias" "1"
-             }
-        }
-				"xHairCircle"
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"72"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-				"xHairCircleOutline"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"72"
-				"weight"	"0"
-				"antialias"	"1"
-				"outline"	"1"
-			}
-		}
-				"Crosshairs34"
+		"Crosshairs34"
 		{
 			"1"
 			{
@@ -2605,14 +2574,84 @@ Scheme
 			"antialias" 	"1"
 			}
 		}
-				"Crosshairs20"
+		"Crosshairs28"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"20"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"		"Crosshairs"
+				"tall"		"28"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}				
+		"Crosshairs24"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"24"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Crosshairs20"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Crosshairs17"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"17"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}				
+        "Crosshairs15"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"15"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Crosshairs12"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"12"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}				
+        "Crosshairs10"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"10"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+        "Crosshairs5"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"5"
+				"weight"	"0"
+				"antialias"	"1"
 			}
 		}
 		

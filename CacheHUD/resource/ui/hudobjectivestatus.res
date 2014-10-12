@@ -27,7 +27,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"Hiruko16"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"xpos"			"30"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"45"

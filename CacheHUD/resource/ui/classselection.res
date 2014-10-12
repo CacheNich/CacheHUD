@@ -703,7 +703,48 @@
 			"image"			"class_sel_sm_spy_inactive"
 			"scaleImage"	"1"
 		}				
-	}	
+	}
+	"TargetIDBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TargetIDBG"
+		"xpos"			"45"
+		"ypos"			"30"
+		"zpos"			"-3"
+		"wide"			"230"
+		"tall"	 		"425"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_2_lodef"	"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_3_lodef"	"../hud/color_panel_blu"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+	}
+	 "ClassBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ClassBG"
+		"xpos"			"45"
+		"ypos"			"30"
+		"zpos"			"-1"
+		"wide"			"215"
+		"tall"			"420"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"     "0 0 0 125"
+		
+	}				
 
 	"CancelButton" [$WIN32] 
 	{
@@ -770,15 +811,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect"
-		"xpos"			"30"
+		"xpos"			"9999"
 		"xpos_lodef"			"62"
 		"xpos_hidef"			"72"
-		"ypos"			"r40"
+		"ypos"			"9999"
 		"ypos_lodef"			"r60"
 		"ypos_hidef"			"r54"
 		"zpos"			"5"
-		"wide"			"450"
-		"tall"			"30"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
