@@ -66,11 +66,11 @@
 	{
 		"ControlName"		"CTFTeamButton"
 		"fieldName"		"teambutton2"
-		"xpos"			"c-290"
-		"ypos"			"101"
+		"xpos"			"315"
+		"ypos"			"230"
 		"zpos"			"3"
-		"wide"			"124"
-		"tall"			"310"
+		"wide"			"150"
+		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -84,7 +84,7 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"autodoor"
-		"font"			"Hiruko32"
+		"font"			"Hiruko0"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -92,11 +92,11 @@
 	{
 		"ControlName"		"CTFTeamButton"
 		"fieldName"		"teambutton3"
-		"xpos"			"c-140"
-		"ypos"			"232"
+		"xpos"			"315"
+		"ypos"			"269"
 		"zpos"			"3"
-		"wide"			"82"
-		"tall"			"57"
+		"wide"			"150"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -110,7 +110,7 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
 		"associated_model"	"spectate"	
-		"font"			"Hiruko32"
+		"font"			"Hiruko0"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -143,15 +143,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
-		"xpos"			"c-280" [$WIN32] 
+		"xpos"			"c-72" [$WIN32] 
 		"xpos"			"c-276" [$X360]
 		"xpos_lodef"			"c-255"
 		"xpos_hidef"			"c-260"
-		"ypos"			"55"
+		"ypos"			"240"
 		"ypos_lodef"			"72"
 		"ypos_hidef"			"65"
 		"zpos"			"1"
-		"wide"			"102" [$WIN32] 
+		"wide"			"150" [$WIN32] 
 		"wide"			"94" [$X360]
 		"tall"			"24"
 		"autoResize"	"0"
@@ -164,17 +164,17 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"Hiruko16"
-		"fgcolor"		"black"
+		"fgcolor"		"white"
 	}
 	
 	"TeamMenuSpectate"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
-		"xpos"			"c-112"
+		"xpos"			"c-18"
 		"xpos_lodef"			"c-125"
 		"xpos_hidef"			"c-109"
-		"ypos"			"255"
+		"ypos"			"273"
 		"ypos_lodef"	"292"
 		"zpos"			"1"
 		"wide"			"44"
@@ -252,15 +252,15 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"autodoor"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"		
-		"wide"			"f0"
-		"tall"			"480"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fov"			"20"
 		
 		"model"
@@ -301,15 +301,15 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"spectate"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fov"			"20"
 		
 		"model"
@@ -388,6 +388,34 @@
 			"text"		"#GameUI_Select"
 			"icon"		"#GameUI_Icons_A_BUTTON"	
 		}
-	}	
+	}
+		 "FightBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FightBG"
+		"xpos"			"315"
+		"ypos"			"230"
+		"zpos"			"-1"
+		"wide"			"150"
+		"tall"			"38"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"     "192 192 192 75"
+		
+	}
+		 "SpecBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SpecBG"
+		"xpos"			"315"
+		"ypos"			"269"
+		"zpos"			"-1"
+		"wide"			"150"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"     "245 245 220 75"
+		
+	}						
 }
 

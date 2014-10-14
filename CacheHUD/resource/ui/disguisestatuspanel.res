@@ -64,9 +64,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"Hiruko16"
 		"font_minmode"	"TFFontMedium"
-		"xpos"			"52"
+		"xpos"			"65"
 		"xpos_minmode"	"34"
 		"ypos"			"31"
 		"ypos_minmode"	"51"
@@ -87,9 +87,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"HUDFontSmall"
+		"font"			"Hiruko12"
 		"font_minmode"	"TFFontMedium"
-		"xpos"			"52"
+		"xpos"			"65"
 		"xpos_minmode"	"34"
 		"ypos"			"45"
 		"ypos_minmode"	"58"

@@ -23,7 +23,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"WarningLabel"
-		"font"			"Hiruko32"
+		"font"			"Hiruko48"
 		"xpos"			"40"
 		"ypos"			"40"
 		"zpos"			"1"
@@ -66,7 +66,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"Hiruko4"
+		"font"			"Hiruko12"
 		"xpos"			"75"
 		"ypos"			"75"
 		"ypos_hidef"	"23"

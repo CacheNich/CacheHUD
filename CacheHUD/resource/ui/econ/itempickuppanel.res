@@ -80,7 +80,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel"
-		"font"			"Hiruko36"
+		"font"			"Hiruko24"
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -98,7 +98,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectedItemFoundMethodLabel"
-		"font"			"Hiruko24"
+		"font"			"Hiruko20"
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -116,7 +116,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemCountLabel"
-		"font"			"Hiruko16"
+		"font"			"Hiruko12"
 		"labelText"		"#Item"
 		"textAlignment"	"north-west"
 		"xpos"			"c-245"
@@ -133,11 +133,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SelectedItemNumberLabel"
-		"font"			"Hiruko36"
+		"font"			"Hiruko20"
 		"labelText"		"#SelectedItemNumber"
 		"textAlignment"	"north-west"
 		"xpos"			"c-245"
-		"ypos"			"120"
+		"ypos"			"128"
 		"zpos"			"5"
 		"wide"			"120"
 		"tall"			"40"

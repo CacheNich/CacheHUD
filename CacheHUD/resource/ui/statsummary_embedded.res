@@ -1659,7 +1659,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"Hiruko24"
+			"font"			"Hiruko20"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
 			"xpos"			"c+124"
@@ -1744,7 +1744,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord1value%"
 			"textAlignment"		"west"
@@ -1792,7 +1792,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
@@ -1840,7 +1840,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord3value%"
 			"textAlignment"		"west"
@@ -1888,7 +1888,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord4value%"
 			"textAlignment"		"west"
@@ -1936,7 +1936,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord5value%"
 			"textAlignment"		"west"
@@ -1984,7 +1984,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord6value%"
 			"textAlignment"		"west"
@@ -2032,7 +2032,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord7value%"
 			"textAlignment"		"west"
@@ -2080,7 +2080,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord8value%"
 			"textAlignment"		"west"
@@ -2128,7 +2128,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
@@ -2176,7 +2176,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord10value%"
 			"textAlignment"		"west"
@@ -2224,7 +2224,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord11value%"
 			"textAlignment"		"west"
@@ -2248,7 +2248,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord12label%"
 			"textAlignment"		"west"
@@ -2272,7 +2272,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord12value%"
 			"textAlignment"		"west"
@@ -2320,7 +2320,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord13value%"
 			"textAlignment"		"west"
@@ -2368,7 +2368,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord14value%"
 			"textAlignment"		"west"
@@ -2416,7 +2416,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"		"west"

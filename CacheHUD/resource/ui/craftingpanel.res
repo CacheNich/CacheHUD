@@ -195,7 +195,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeInputStringLabel"
-			"font"			"Hiruko16"
+			"font"			"Hiruko12"
 			"labelText"		"%recipeinputstring%"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -373,7 +373,7 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
+			"font"			"Hiruko28"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"

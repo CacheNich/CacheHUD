@@ -104,7 +104,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"Hiruko16"
+			"font"			"Hiruko10"
 			"xpos"			"37"
 			"ypos"			"28"
 			"zpos"			"2"
@@ -139,7 +139,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"Hiruko16"
+			"font"			"Hiruko12"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -160,7 +160,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"Hiruko16"
+			"font"			"Hiruko8"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -181,7 +181,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"matcheslabel"
-			"font"			"Hiruko16"
+			"font"			"Hiruko10"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"

@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemName"
-		"font"			"Default"
+		"font"			"Hiruko24"
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"1"

@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Default"
+		"font"			"Hiruko20"
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -88,7 +88,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"HudMenuNumberFont"
+		"font"			"Hiruko20"
 		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"98"

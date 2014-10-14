@@ -6,9 +6,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"
-		"ypos"	"-1"
-		"wide"	"f0"
-		"tall"	"480"
+		"ypos"	"-4"
+		"wide"	"1000"
+		"tall"	"1000"
 	}
 
 	HudWeaponAmmo
@@ -28,9 +28,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
+		"ypos"	"-22"
+		"wide"	"1000"
+		"tall"	"1000"
 	}	
 	
 	HudKothTimeStatus
@@ -180,7 +180,7 @@
 		"BoxColor" "0 0 0 220"
 		"SelectedBoxClor" "0 0 0 220"
 		"SelectionNumberFg"	"200 187 161 255"
-		"NumberFont" "HudSelectionText"
+		"NumberFont" "Hiruko16"
 	}	
 	
 	CHudAccountPanel
@@ -200,9 +200,9 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
+		"xpos"					"125"
 		"xpos_minmode"			"61"
-		"ypos"					"r100"
+		"ypos"					"r143"
 		"ypos_minmode"			"r134"
 		"wide"					"116"
 		"tall"  				"180"
@@ -277,7 +277,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"380"
+		"ypos"		"378"
 		"wide"	 	"100"
 		"tall"	 	"50"
 		"priority"	"35"
@@ -479,7 +479,7 @@
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"Hiruko12"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
@@ -555,8 +555,8 @@
 		"tall"	 "480"
 		"zpos" "1"
 
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
+		"TextFont"				"Hiruko36"
+		"ItemFont"				"Hiruko12"
 		"ItemFontPulsing"		"Default"
 	}
 
@@ -844,7 +844,7 @@
 		"enabled"				"1"
 		"xpos"					"c-150"
 		"ypos"					"215"
-		"wide"					"300"
+		"wide"					"1000"
 		"tall"					"300"
 	}
 
@@ -964,10 +964,10 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-55"
-		"wide"			"450"
-		"tall"			"195"
+		"xpos"			"c-200"
+		"ypos"			"c-100"
+		"wide"			"1000"
+		"tall"			"1000"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -976,10 +976,10 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-59"
-		"wide"			"450"
-		"tall"			"200"
+		"xpos"			"c-200"
+		"ypos"			"c-100"
+		"wide"			"1000"
+		"tall"			"1000"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -1001,11 +1001,11 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
-		"ypos"			"c-52"
+		"ypos"			"c-150"
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"
 		"wide"			"470"
-		"tall"			"200"	[$WIN32]
+		"tall"			"400"	[$WIN32]
 		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
 	}	
@@ -1015,8 +1015,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r435"	[$WIN32]
-		"ypos"			"r200"	[$WIN32]
+		"xpos"			"r299"	[$WIN32]
+		"ypos"			"r148"	[$WIN32]
 		"xpos"			"r200"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"300"
@@ -1039,8 +1039,8 @@
 	HudTeamGoalTournament
 	{
 		"fieldName"				"HudTeamGoalTournament"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"xpos"					"c-160"
 		"ypos"					"15"
 		"ypos_lodef"			"75"
@@ -1054,7 +1054,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-160"
-		"ypos"					"75"
+		"ypos"					"130"
 		"ypos_hidef"				"90"
 		"ypos_lodef"			"90"
 		"wide"					"320"
@@ -1067,7 +1067,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-160"
-		"ypos"					"75"
+		"ypos"					"100"
 		"ypos_hidef"				"90"
 		"ypos_lodef"				"90"
 		"wide"					"320"
@@ -1127,8 +1127,8 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
+		"xpos"					"c-175"
+		"ypos"					"-2"
 		"ypos_minmode"				"15"
 		"ypos_lodef"				"75"
 		"wide"					"125"
@@ -1141,7 +1141,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-320"
-		"ypos"					"300"
+		"ypos"					"275"
 		"wide"					"640"
 		"tall"					"100"
 	}
@@ -1365,12 +1365,12 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
+		"xpos"			"c-140"
+		"ypos"			"c-200"
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"
+		"wide"			"1000"
+		"tall"			"1000"
 		"PaintBackgroundType"	"0"
 	}
 xHairCircle

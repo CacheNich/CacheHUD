@@ -34,7 +34,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"MoneyImagePanel"
-		"xpos"		"30"
+		"xpos"		"20"
 		"ypos"		"13"
 		"zpos"		"4"
 		"wide"		"30"
@@ -51,7 +51,7 @@
 		"fieldName"		"CurrencyGood"
 		"font"			"Hiruko24"
 		"fgcolor"		"CreditsGreen"
-		"xpos"			"45"
+		"xpos"			"20"
 		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"100"
@@ -66,9 +66,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"Hiruko36"
+		"font"			"Hiruko24"
 		"fgcolor"		"Red"
-		"xpos"			"45"
+		"xpos"			"20"
 		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"100"
@@ -78,4 +78,18 @@
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
 	}
+	"CurrencyBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CurrencyBG"
+		"xpos"			"15"
+		"ypos"			"8"
+		"zpos"			"-1"
+		"wide"			"100"
+		"tall"			"65"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"     "0 0 0 75"
+		
+	}			
 }

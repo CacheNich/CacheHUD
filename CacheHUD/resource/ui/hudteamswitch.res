@@ -22,7 +22,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"SwitchLabel"
-		"font"			"Hiruko16"
+		"font"			"Hiruko24"
 		"xpos"			"80"
 		"ypos"			"58"
 		"ypos_hidef"	"40"
@@ -42,7 +42,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"Hiruko16"
+		"font"			"Hiruko24"
 		"xpos"			"80"
 		"ypos"			"28"
 		"ypos_hidef"	"23"

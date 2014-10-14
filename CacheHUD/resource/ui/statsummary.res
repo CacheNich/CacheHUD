@@ -2407,7 +2407,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"Hiruko12"
+			"font"			"Hiruko10"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord12label%"
 			"textAlignment"		"west"

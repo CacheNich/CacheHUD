@@ -200,7 +200,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"Hiruko24"
+		"font"			"Hiruko16"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"west"
 		"xpos"			"c-55"
@@ -416,7 +416,7 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
+			"font"			"Hiruko20"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"

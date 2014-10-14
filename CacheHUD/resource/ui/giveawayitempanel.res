@@ -88,7 +88,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Hiruko24"
+		"font"			"Hiruko16"
 		"labelText"		"REWARD GIVEAWAY"
 		"textAlignment"	"west"
 		"xpos"			"c-280"

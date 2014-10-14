@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"x_offset"		"40"
 		"xpos"			"r260"	[$WIN32]
-		"ypos"			"r107"	[$WIN32]
+		"ypos"			"r108"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"300"
@@ -41,7 +41,7 @@
 		"ypos"					"-5"
 		"zpos"					"2"
 		"wide"					"41"
-		"tall"					"15"
+		"tall"					"14"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -63,7 +63,7 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"95"
-		"tall"					"6"				
+		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

@@ -87,7 +87,7 @@
 		"team"				"3"		// team blue
 		"associated_model"	"bluedoor"
 		"hover"				"2.0"
-		"font"			"Hiruko16"
+		"font"			"Hiruko0"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -115,7 +115,7 @@
 		"team"				"2"		// team red
 		"associated_model"	"reddoor"	
 		"hover"				"2.0"
-		"font"			"Hiruko16"
+		"font"			"Hiruko0"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -167,7 +167,7 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"	
-		"font"			"Hiruko12"
+		"font"			"Hiruko0"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -758,7 +758,7 @@
 		 "BlueBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"MedicBG"
+		"fieldName"		"BlueBG"
 		"xpos"			"309"
 		"ypos"			"230"
 		"zpos"			"-1"
@@ -772,7 +772,7 @@
 		 "RedBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"MedicBG"
+		"fieldName"		"RedBG"
 		"xpos"			"384"
 		"ypos"			"230"
 		"zpos"			"-1"
@@ -786,7 +786,7 @@
 		 "SpecBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"MedicBG"
+		"fieldName"		"SpecBG"
 		"xpos"			"309"
 		"ypos"			"269"
 		"zpos"			"-1"

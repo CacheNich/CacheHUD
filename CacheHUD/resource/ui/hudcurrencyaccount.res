@@ -4,9 +4,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"Hiruko36"
+		"font"			"Hiruko24"
 		"fgcolor"		"TanLight"
-		"xpos"			"70"
+		"xpos"			"50"
 		"ypos"			"90"
 		"zpos"			"3"
 		"wide"			"90"
@@ -21,9 +21,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"Hiruko36"
+		"font"			"Hiruko24"
 		"fgcolor"		"Black"
-		"xpos"			"71"
+		"xpos"			"51"
 		"ypos"			"90"
 		"zpos"			"3"
 		"wide"			"90"
@@ -38,7 +38,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WhiteBG"
-		"xpos"			"26"
+		"xpos"			"50"
 		"ypos"			"71"
 		"zpos"			"1"
 		"wide"			"60"
@@ -53,7 +53,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WhiteBG"
-		"xpos"			"27"
+		"xpos"			"50"
 		"ypos"			"72"
 		"zpos"			"2"
 		"wide"			"58"

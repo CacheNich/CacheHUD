@@ -2510,12 +2510,39 @@ Scheme
 				"antialias" "1"
 		   }	
 		}
+		Hiruko30
+		{
+		   "1"
+		   {
+			    "name"      "Hiruko-BlackAlternate"
+				"tall"      "30"
+				"antialias" "1"
+		   }	
+		}
+			Hiruko28
+		{
+		   "1"
+		   {
+			    "name"      "Hiruko-BlackAlternate"
+				"tall"      "28"
+				"antialias" "1"
+		   }	
+		}
         Hiruko24
 		{
 		   "1"
 		   {
 			    "name"      "Hiruko-BlackAlternate"
 				"tall"      "24"
+				"antialias" "1"
+		   }	
+		}
+		 Hiruko20
+		{
+		   "1"
+		   {
+			    "name"      "Hiruko-BlackAlternate"
+				"tall"      "20"
 				"antialias" "1"
 		   }	
 		}

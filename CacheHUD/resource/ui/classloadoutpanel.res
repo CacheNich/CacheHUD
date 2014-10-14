@@ -452,7 +452,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntHintLabel"
-		"font"			"Hiruko36"
+		"font"			"Hiruko24"
 		"xpos"			"c90"
 		"ypos"			"20"
 		"zpos"			"1"	

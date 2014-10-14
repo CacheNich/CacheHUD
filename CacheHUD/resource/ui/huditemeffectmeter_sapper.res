@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 //		"x_offset"		"40"
-		"xpos"			"r450"	[$WIN32]
-		"ypos"			"r120"	[$WIN32]
+		"xpos"			"r335"	[$WIN32]
+		"ypos"			"r117"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"300"
@@ -39,21 +39,21 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
-		"ypos"					"25"
+		"xpos"					"60"
+		"ypos"					"3"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"0"
-		"enabled"				"0"
+		"visible"				"1"
+		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"Hiruko8"
 	}
 
 	"ItemEffectMeter"
@@ -64,7 +64,7 @@
 		"xpos"					"36"
 		"ypos"					"8"
 		"zpos"					"2"
-		"wide"					"100"
+		"wide"					"94"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

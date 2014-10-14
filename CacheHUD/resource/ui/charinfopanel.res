@@ -102,7 +102,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"Hiruko24"
+			"font"				"Hiruko20"
 			"selectedcolor"		"200 187 161 255"
 			"unselectedcolor"	"130 120 104 255"	
 			"defaultBgColor_override"	"46 43 42 255"

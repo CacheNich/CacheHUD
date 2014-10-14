@@ -4,10 +4,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"TeamScoresPanel"
-		"xpos"			"-44"
+		"xpos"			"-29"
 		"ypos"			"13"
-		"wide"			"480"
-		"tall"			"60"
+		"wide"			"600"
+		"tall"			"500"
 		"visible"		"1"
 
 		"BlueScoreBG"
@@ -30,7 +30,7 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"RedScoreBG"
-			"xpos"			"140"
+			"xpos"			"135"
 			"ypos"			"0"
 			"wide"			"0"
 			"tall"			"50"
@@ -41,6 +41,48 @@
 			"image"			"../hud/winpanel_red_bg_team"
 			"image_lodef"	"../hud/winpanel_red_bg_team_lodef"
 			"scaleImage"		"1"
+		}
+				"backgroundBLU"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"background"
+			"xpos"			"33"
+			"ypos"			"148"
+			"zpos"			"0"
+			"wide"			"25"
+			"tall"			"150"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/color_panel_blu"
+				
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+					
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		"backgroundRED"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"background"
+			"xpos"			"340"
+			"ypos"			"148"
+			"zpos"			"0"
+			"wide"			"25"
+			"tall"			"100"
+			"autoResize"	"0"
+			"pinCorner"		"0" 
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/color_panel_red"
+				
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+					
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		"BlueTeamLabel"
 		{
@@ -62,11 +104,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"Hiruko48"
+			"font"			"Hiruko32"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
-			"xpos"			"15"
-			"ypos"			"20"
+			"xpos"			"-46"
+			"ypos"			"165"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"
@@ -79,12 +121,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"Hiruko48"
+			"font"			"Hiruko32"
 			"fgcolor"		"Black"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
-			"xpos"			"16"
-			"ypos"			"21"
+			"xpos"			"-45"
+			"ypos"			"165"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"
@@ -113,11 +155,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"Hiruko48"
+			"font"			"Hiruko32"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
-			"xpos"			"300"
-			"ypos"			"20"
+			"xpos"			"345"
+			"ypos"			"165"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"
@@ -130,12 +172,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"Hiruko48"
+			"font"			"Hiruko32"
 			"fgcolor"		"Black"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
-			"xpos"			"301"
-			"ypos"			"21"
+			"xpos"			"345"
+			"ypos"			"165"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"
@@ -143,14 +185,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}				
 
 	}
 	"WinPanelBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"WinPanelBG"
-		"xpos"			"-102"
+		"xpos"			"-78"
 		"ypos"			"135"
 		"zpos"			"0"
 		"wide"			"496"
@@ -164,7 +206,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 		"font"			"ScoreboardTeamName"
-		"xpos"			"0"
+		"xpos"			"25"
 		"ypos"			"72"
 		"zpos"			"1"
 		"wide"			"0"
@@ -184,7 +226,7 @@
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"Hiruko16"
 		"fgcolor"		"black"
-		"xpos"			"1"
+		"xpos"			"26"
 		"ypos"			"73"
 		"zpos"			"1"
 		"wide"			"0"
@@ -203,7 +245,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
 		"font"			"Hiruko16"
-		"xpos"			"0"
+		"xpos"			"26"
 		"ypos"			"72"
 		"zpos"			"1"
 		"wide"			"292"
@@ -223,7 +265,7 @@
 		"fieldName"		"AdvancingTeamLabelDropshadow"
 		"font"			"Hiruko24"
 		"fgcolor"		"black"
-		"xpos"			"1"
+		"xpos"			"26"
 		"ypos"			"73"
 		"zpos"			"1"
 		"wide"			"292"
@@ -242,7 +284,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
 		"font"			"Hiruko8"
-		"xpos"			"0"
+		"xpos"			"26"
 		"ypos"			"89"
 		"zpos"			"1"
 		"wide"			"292"
@@ -261,7 +303,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
 		"font"			"Hiruko8"
-		"xpos"			"12"
+		"xpos"			"36"
 		"ypos"			"101"
 		"zpos"			"1"
 		"wide"			"268"
@@ -279,7 +321,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"12"
+		"xpos"			"36"
 		"ypos"			"170"
 		"zpos"			"2"
 		"wide"			"268"
@@ -298,7 +340,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
 		"font"			"Hiruko12"
-		"xpos"			"15"
+		"xpos"			"40"
 		"ypos"			"180"
 		"zpos"			"3"
 		"wide"			"0"
@@ -317,7 +359,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"Hiruko12"
-		"xpos"			"136"
+		"xpos"			"161"
 		"ypos"			"114"
 		"zpos"			"3"
 		"wide"			"0"
@@ -335,7 +377,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HorizontalLine"
-		"xpos"			"15"
+		"xpos"			"40"
 		"ypos"			"129"
 		"zpos"			"3"
 		"wide"			"0"
@@ -352,7 +394,7 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player1Avatar"
-		"xpos"			"22"
+		"xpos"			"47"
 		"ypos"			"135"
 		"zpos"			"3"
 		"wide"			"0"
@@ -367,7 +409,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Name"
-		"xpos"			"50"	[$WIN32]
+		"xpos"			"75"	[$WIN32]
 		"xpos"			"14"	[$X360]
 		"ypos"			"170"
 		"zpos"			"3"
@@ -387,7 +429,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Class"
-		"xpos"			"180"
+		"xpos"			"205"
 		"ypos"			"170"
 		"zpos"			"3"
 		"wide"			"200"
@@ -405,7 +447,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Score"
-		"xpos"			"240"
+		"xpos"			"265"
 		"ypos"			"170"
 		"zpos"			"3"
 		"wide"			"30"
@@ -423,7 +465,7 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player2Avatar"
-		"xpos"			"-10"
+		"xpos"			"15"
 		"ypos"			"-10"
 		"zpos"			"3"
 		"wide"			"0"
@@ -438,7 +480,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Name"
-		"xpos"			"50"	[$WIN32]
+		"xpos"			"75"	[$WIN32]
 		"xpos"			"14"			[$X360]
 		"ypos"			"190"
 		"zpos"			"3"
@@ -458,7 +500,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Class"
-		"xpos"			"180"
+		"xpos"			"205"
 		"ypos"			"190"
 		"zpos"			"3"
 		"wide"			"200"
@@ -476,7 +518,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Score"
-		"xpos"			"240"
+		"xpos"			"265"
 		"ypos"			"190"
 		"zpos"			"3"
 		"wide"			"30"
@@ -494,7 +536,7 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player3Avatar"
-		"xpos"			"22"
+		"xpos"			"47"
 		"ypos"			"179"
 		"zpos"			"3"
 		"wide"			"0"
@@ -509,7 +551,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Name"
-		"xpos"			"50"	[$WIN32]
+		"xpos"			"75"	[$WIN32]
 		"xpos"			"14"	[$X360]
 		"ypos"			"210"
 		"zpos"			"3"
@@ -529,7 +571,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Class"
-		"xpos"			"180"
+		"xpos"			"205"
 		"ypos"			"210"
 		"zpos"			"3"
 		"wide"			"200"
@@ -547,7 +589,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Score"
-		"xpos"			"240"
+		"xpos"			"265"
 		"ypos"			"210"
 		"zpos"			"3"
 		"wide"			"30"
@@ -568,7 +610,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakLeaderLabel"
 		"font"			"Hiruko8"
-		"xpos"			"15"
+		"xpos"			"40"
 		"ypos"			"195"
 		"zpos"			"3"
 		"wide"			"0"
@@ -587,7 +629,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
 		"font"			"Hiruko8"
-		"xpos"			"136"
+		"xpos"			"161"
 		"ypos"			"195"
 		"zpos"			"3"
 		"wide"			"0"
@@ -605,7 +647,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HorizontalLine2"
-		"xpos"			"15"
+		"xpos"			"40"
 		"ypos"			"210"
 		"zpos"			"3"
 		"wide"			"0"
@@ -622,7 +664,7 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"KillStreakPlayer1Avatar"
-		"xpos"			"22"
+		"xpos"			"47"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"0"
@@ -637,7 +679,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Name"
-		"xpos"			"50"	[$WIN32]
+		"xpos"			"75"	[$WIN32]
 		"xpos"			"14"	[$X360]
 		"ypos"			"0"
 		"zpos"			"0"
@@ -657,7 +699,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Class"
-		"xpos"			"180"
+		"xpos"			"205"
 		"ypos"			"213"
 		"zpos"			"3"
 		"wide"			"0"
@@ -675,7 +717,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Score"
-		"xpos"			"240"
+		"xpos"			"265"
 		"ypos"			"213"
 		"zpos"			"3"
 		"wide"			"0"

@@ -376,7 +376,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowArmoryLabel"
-		"font"			"Hiruko16"
+		"font"			"Hiruko12"
 		"labelText"		"#Armory"
 		"textAlignment"	"north"
 		"xpos"			"c5"

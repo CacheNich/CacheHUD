@@ -35,7 +35,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"Notification_Label"
-		"font"			"Hiruko16"
+		"font"			"Hiruko10"
 		"xpos"			"30"
 		"ypos"			"9"
 		"wide"			"200"
